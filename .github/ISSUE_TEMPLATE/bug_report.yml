@@ -1,61 +1,60 @@
-name: 🐛 Bug Report
-description: Report a defect, unexpected error, or reproducible problem.
-labels: ["bug"]
+name: Bug report
+description: Report a reproducible defect or unexpected behavior.
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for reporting an issue! Please check existing issues first to avoid duplicates.
+        Search existing issues before filing a duplicate. Do not report security vulnerabilities here; use the repository's Security tab.
+
   - type: textarea
     id: summary
     attributes:
-      label: Bug Description
-      description: A clear and concise description of what the bug is.
-      placeholder: What happened?
+      label: What happened?
+      description: Describe the incorrect behavior and its impact.
     validations:
       required: true
+
   - type: textarea
     id: reproduction
     attributes:
-      label: Steps to Reproduce
-      description: Detailed steps, cURL commands, or code snippets to reproduce the behavior.
+      label: How can we reproduce it?
+      description: Provide the smallest reliable sequence of steps, commands, requests, or inputs that reproduces the problem.
       placeholder: |
-        1. Start server with config '...'
-        2. Send request to endpoint '...'
-        3. See error response
+        1. ...
+        2. ...
+        3. ...
     validations:
       required: true
+
   - type: textarea
     id: expected
     attributes:
-      label: Expected Behavior
-      description: A concise explanation of what should have occurred instead.
+      label: What did you expect?
+      description: Describe the behavior you expected instead.
     validations:
       required: true
+
   - type: input
     id: version
     attributes:
-      label: Version / Commit Hash
-      description: Which version or git commit are you running? (e.g., v0.3.0 or git commit sha)
-      placeholder: v0.3.0
+      label: Version or commit
+      description: Provide the release version or commit SHA you tested.
+      placeholder: v1.2.3 or abc1234
     validations:
       required: true
+
   - type: textarea
     id: environment
     attributes:
-      label: Environment & Deployment
-      description: OS distribution, architecture, runtime flags, Docker/bare-metal, client agent.
-      placeholder: |
-        - OS: Linux x86_64 (Debian 12 / Ubuntu 24.04)
-        - Deployment: Docker Compose / Bare Metal
-        - Upstream Provider(s): OpenAI / Anthropic / Local
+      label: Environment
+      description: Include only details relevant to reproducing the issue, such as OS, architecture, runtime, deployment mode, or client.
     validations:
       required: false
+
   - type: textarea
-    id: logs
+    id: evidence
     attributes:
-      label: Relevant Logs & Output
-      description: Paste any server logs or error backtraces here. Please redact secrets and API keys!
-      render: shell
+      label: Logs or other evidence
+      description: Add relevant logs, traces, screenshots, or error output. Redact credentials, tokens, and private data.
     validations:
       required: false

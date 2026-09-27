@@ -1,34 +1,19 @@
 ## Summary
 
-<!-- Briefly describe the changes made in this pull request and the motivation behind them. -->
+<!-- What changed, and why? -->
 
-## Changes
+## Verification
 
-- 
+<!-- List the exact automated or manual checks you ran. Note anything not verified. -->
 
-## Related Issues / Discussions
+## Related issues
 
-<!-- Reference issues or PRs: Fixes #123, Closes #456 -->
-
-## Type of Change
-
-- [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
-- [ ] ✨ New feature (non-breaking change adding functionality)
-- [ ] 💥 Breaking change (fix or feature causing existing functionality to change)
-- [ ] ⚡ Performance optimization
-- [ ] 📚 Documentation update
-- [ ] 🧹 Code cleanup / refactor
-
-## Testing & Verification
-
-- [ ] Unit tests added / updated and passing (`cargo test` or `npm test`)
-- [ ] Linter and formatters passing cleanly (`cargo clippy`, `cargo fmt`, `npm run lint`)
-- [ ] Smoke tests or integration tests verified locally
-- [ ] End-to-end compatibility checked (if applicable)
+<!-- Examples: Fixes #123, Closes #456 -->
 
 ## Checklist
 
-- [ ] My code adheres to the project coding and style conventions.
-- [ ] I have self-reviewed my own code.
-- [ ] I have commented complex or non-obvious logic.
-- [ ] No secrets, credentials, or private upstream tokens are exposed.
+- [ ] The change is scoped to the stated problem.
+- [ ] I followed the target repository's local contribution and development instructions.
+- [ ] Tests or regression coverage were added or updated where applicable.
+- [ ] Documentation was updated where behavior, interfaces, configuration, or workflows changed.
+- [ ] No secrets, credentials, or private data are included.

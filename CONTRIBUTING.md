@@ -1,19 +1,31 @@
 # Contributing to PrightCord
 
-Thank you for your interest in contributing to PrightCord projects! We build high-reliability, low-latency infrastructure for AI inference and developer workflows.
+PrightCord repositories use different languages, build systems, and release workflows. Treat the target repository as the source of truth for setup, architecture, testing, and release instructions.
 
-## General Guidelines
+## Before you change anything
 
-1. **Protocol & Semantic Accuracy**: Preserving upstream protocol fidelity and streaming behavior is paramount across our proxies and tools.
-2. **Quality & Test Coverage**: Every bug fix should include a regression test. Every new feature should include comprehensive unit and smoke tests.
-3. **Security First**: Never check in secrets, credentials, or production tokens. All dependencies must pass license and vulnerability screening.
-4. **Clean Git History**: Use descriptive commit messages following the Conventional Commits specification (`feat:`, `fix:`, `chore:`, `docs:`, etc.).
+- Read the repository's `README.md` and any repo-local `CONTRIBUTING.md`, `AGENTS.md`, or development docs.
+- Search existing issues and pull requests before opening duplicate work.
+- Keep the change focused. Avoid unrelated cleanup or refactors.
 
-## Workflow
+## Implementation
 
-1. Fork the repository (or create a feature branch if you are a collaborator).
-2. Create a focused branch: `git checkout -b feature/your-feature-name`.
-3. Verify formatting, linter, and tests locally:
-   - For Rust crates: `cargo fmt --check && cargo clippy --all-targets && cargo test`
-   - For Node / TypeScript packages: `npm ci && npx tsc --noEmit && npm run build`
-4. Open a Pull Request referencing any related issues and following our PR template.
+- Preserve existing public behavior unless the change intentionally modifies it.
+- Add regression coverage for bug fixes when the repository has an applicable test surface.
+- Add or update tests for new behavior at the narrowest useful level.
+- Update documentation when user-visible behavior, interfaces, configuration, or durable workflows change.
+- Never commit credentials, tokens, private keys, production data, or other secrets.
+
+## Verification
+
+Run the checks documented by the target repository. In the pull request, list the exact commands or manual checks you ran and note anything you could not verify.
+
+## Pull requests
+
+A useful pull request should explain:
+
+- the problem or goal;
+- the change made;
+- how it was verified;
+- any compatibility, migration, or follow-up work;
+- related issues or discussions, when applicable.

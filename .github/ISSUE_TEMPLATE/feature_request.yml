@@ -1,37 +1,47 @@
-name: 💡 Feature Request
-description: Propose a new feature, architecture enhancement, or tool improvement.
-labels: ["enhancement"]
+name: Feature request
+description: Propose a change or new capability.
 body:
   - type: markdown
     attributes:
       value: |
-        Have an idea for PrightCord? We'd love to hear your proposal!
+        Describe the problem and the outcome you want. Implementation details are useful when they clarify constraints, but they are not required.
+
   - type: textarea
     id: problem
     attributes:
-      label: Problem Statement
-      description: Is your feature request related to a problem or limitation?
-      placeholder: "I'm always frustrated when [...]"
+      label: Problem
+      description: What limitation, workflow, or use case is not handled well today?
     validations:
       required: true
+
   - type: textarea
-    id: solution
+    id: outcome
     attributes:
-      label: Proposed Solution / Architecture
-      description: Describe the solution or feature behavior you would like to see implemented.
+      label: Desired outcome
+      description: What behavior or capability would address the problem?
     validations:
       required: true
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints or trade-offs
+      description: Note compatibility requirements, performance constraints, protocol requirements, or other limits that matter.
+    validations:
+      required: false
+
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives Considered
-      description: Any alternative solutions or workarounds you've considered.
+      label: Alternatives considered
+      description: Describe existing workarounds or other approaches you considered.
     validations:
       required: false
+
   - type: textarea
-    id: additional-context
+    id: context
     attributes:
-      label: Additional Context
-      description: Links to provider specs, screenshots, or design thoughts.
+      label: Additional context
+      description: Add relevant links, examples, screenshots, specifications, or references.
     validations:
       required: false

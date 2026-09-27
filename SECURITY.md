@@ -1,31 +1,23 @@
 # Security Policy
 
-PrightCord projects handle network traffic, proxying, and authentication credentials. Security is integral to our software architecture and operational standards.
+Report security vulnerabilities privately in the affected PrightCord repository.
 
-## Reporting a Vulnerability
+## Reporting a vulnerability
 
-If you discover a security vulnerability in any PrightCord project, please disclose it responsibly:
+1. Open the affected repository's **Security** tab.
+2. Use **Report a vulnerability** if private vulnerability reporting is enabled.
+3. If private reporting is unavailable, use a private maintainer contact method documented by that repository.
 
-1. **GitHub Private Vulnerability Reporting (Preferred)**:
-   Submit a confidential report directly via GitHub Security Advisories on the affected repository:
-   - [kinetix Security Advisories](https://github.com/PrightCord/kinetix/security/advisories/new)
-   - [kinetix-plugins Security Advisories](https://github.com/PrightCord/kinetix-plugins/security/advisories/new)
-   - [kinetix-frontend Security Advisories](https://github.com/PrightCord/kinetix-frontend/security/advisories/new)
+Do not open a public issue, discussion, or pull request for an undisclosed vulnerability.
 
-2. **Alternative Contact**:
-   If private reporting is unavailable, reach out to maintainers via confidential channel or the contact email listed on the organization profile.
+Include enough information to reproduce and assess the issue:
 
-Please **do not** open public issues, discussions, or pull requests for undisclosed security vulnerabilities.
+- affected repository and version or commit;
+- impact and affected behavior;
+- reproduction steps or a minimal proof of concept;
+- relevant environment or deployment details;
+- known mitigations or workarounds, if any.
 
-### What to Provide
+Do not include live credentials or secrets. Use redacted or disposable values in reports and reproductions.
 
-- Detailed explanation of the vulnerability and its potential impact.
-- Step-by-step reproduction instructions or a minimal proof of concept (PoC).
-- Affected repository, branch, or release version.
-- Environmental specifics (OS, architecture, deployment mode).
-
-### Response Commitment
-
-- **Acknowledgment**: Within 48 hours.
-- **Initial Assessment**: Within 5 business days.
-- **Remediation**: Coordinated release with security advisory and reporter acknowledgment.
+A repository-specific `SECURITY.md` takes precedence over this shared policy.
