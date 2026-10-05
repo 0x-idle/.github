@@ -77,10 +77,10 @@ Bug reports, experiments, fixes, criticism, benchmarks, weird ideas, and good pu
 
 Repository-specific instructions override the organization defaults.
 
-See `CONTRIBUTING.md`.
+See [CONTRIBUTING.md](../CONTRIBUTION.md).
 
 ## Security
 
 Please don't put vulnerabilities in public issues.
 
-See `SECURITY.md`.
+See [SECURITY.md](../SECURITY.md).
