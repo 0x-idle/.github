@@ -1,6 +1,6 @@
-# Contributing to 0xidle
+# Contributing to 0x1d1e
 
-0xidle is a collection of experiments and projects built in spare time.
+0x1d1e is a collection of experiments and projects built in spare time.
 
 Contributions are welcome, but don't expect corporate process.
 
