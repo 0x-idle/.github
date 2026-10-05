@@ -9,7 +9,6 @@ We mostly mess with:
 - AI / LLM infrastructure
 - developer tools
 - agents and automation
-- OCR and document systems
 - Linux desktop software
 - interfaces
 - infrastructure
