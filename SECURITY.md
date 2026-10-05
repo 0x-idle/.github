@@ -1,6 +1,6 @@
 # Security Policy
 
-0xidle contains experimental software built mostly in spare time.
+0x1d1e contains experimental software built mostly in spare time.
 
 We still care about security.
 
@@ -39,7 +39,7 @@ Please keep reports reproducible and focused.
 
 ## Scope
 
-Finding a bug in an 0xidle project does not give permission to attack systems operated by:
+Finding a bug in an 0x1d1e project does not give permission to attack systems operated by:
 
 - users;
 - cloud providers;
