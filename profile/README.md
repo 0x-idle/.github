@@ -1,17 +1,86 @@
-# PrightCord
+# 0xidle
 
-Open-source tools for self-hosted LLM infrastructure and local coding-agent workflows.
+**software made during idle cycles.**
 
-## Projects
+A loose group of people building things in hobby time, unemployed time, weekends, late nights, or whenever there are spare CPU cycles.
 
-- **[Kinetix](https://github.com/PrightCord/kinetix)** — Self-hosted LLM gateway for coding agents and small technical teams, with OpenAI- and Anthropic-compatible APIs, routing, fallback, accounting, and plugins.
-- **[Kinetix Plugins](https://github.com/PrightCord/kinetix-plugins)** — Official Kinetix plugin collection, guest SDK, WIT ABI, catalog metadata, and release tooling.
+We mostly mess with:
 
-## Contributing and security
+- AI / LLM infrastructure
+- developer tools
+- agents and automation
+- OCR and document systems
+- Linux desktop software
+- interfaces
+- infrastructure
+- whatever seems interesting next
 
-Each repository's README and repo-local documentation are canonical for setup, testing, architecture, and release workflows.
+## Why
 
-Shared defaults:
+Most projects here start with some variation of:
 
-- [Contributing](https://github.com/PrightCord/.github/blob/main/CONTRIBUTING.md)
-- [Security](https://github.com/PrightCord/.github/blob/main/SECURITY.md)
+> "what if we just built it?"
+
+Sometimes that produces a useful tool.
+
+Sometimes it produces a prototype that answers one question and is never touched again.
+
+Both are valid outcomes.
+
+## How we work
+
+### Build first
+
+Working software usually teaches us more than discussing hypothetical software.
+
+### Verify things
+
+If something depends on an assumption, test it.
+
+Source code, benchmarks, traces, reproductions, real usage, and measurements beat guesses.
+
+### Keep the useful parts
+
+Experiments are allowed to fail.
+
+When something works well enough to keep, we gradually make it less cursed.
+
+### No fake stability
+
+A project being public does not mean it is:
+
+- production-ready;
+- stable;
+- maintained forever;
+- backward compatible;
+- suitable for your infrastructure.
+
+Check the repository.
+
+### No roadmap theater
+
+Projects move when someone wants to work on them.
+
+Issues and roadmaps describe intent, not contractual delivery dates.
+
+## Project status
+
+Unless a repository explicitly says otherwise, assume:
+
+> **experimental — APIs may break, designs may change, dragons possible.**
+
+Individual repositories define their own stability, releases, compatibility guarantees, and support expectations.
+
+## Contributing
+
+Bug reports, experiments, fixes, criticism, benchmarks, weird ideas, and good pull requests are welcome.
+
+Repository-specific instructions override the organization defaults.
+
+See `CONTRIBUTING.md`.
+
+## Security
+
+Please don't put vulnerabilities in public issues.
+
+See `SECURITY.md`.
