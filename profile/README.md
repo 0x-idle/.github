@@ -12,7 +12,31 @@ We mostly mess with:
 - Linux desktop software
 - interfaces
 - infrastructure
+- applied ML research, especially Khmer language technology
 - whatever seems interesting next
+
+[Website](https://0x1d1e.tech) · [Repositories](https://github.com/orgs/0x1d1e/repositories)
+
+## What we're building
+
+| Project | What it is |
+| --- | --- |
+| [Kanade](https://github.com/0x1d1e/kanade) | A top-center Dynamic Island and desktop shell experience for [niri](https://github.com/YaLTeR/niri), built with Amane. |
+| [Kinetix](https://github.com/0x1d1e/kinetix) | A self-hosted LLM gateway for coding agents and small teams: compatible APIs, routing, fallback, account pools, and usage tracking. |
+| [Kinetix Plugins](https://github.com/0x1d1e/kinetix-plugins) | Plugins, SDK, and tooling for extending Kinetix through WebAssembly. |
+| [Khmer Decision Lab](https://github.com/0x1d1e/khmer-decision-lab) | Reproducible research on lightweight Khmer language understanding, decision models, fine-tuning, and evaluation on consumer GPUs. |
+
+The repositories are at different stages. Some are actively changing, some are experiments, and some may be paused or archived. Check each project's README for its current state.
+
+## Research
+
+Not every useful result is an app.
+
+[Khmer Decision Lab](https://github.com/0x1d1e/khmer-decision-lab) starts with Khmer intent classification and small decision models. The broader questions include cross-task generalization, OCR robustness, retrieval relevance, calibration, latency, and memory use.
+
+We want research that can be checked: documented datasets and splits, reproducible experiments, baselines, error analysis, and negative results when an idea doesn't work.
+
+A benchmark result is evidence for the task and setup that produced it—not a claim that a model works everywhere.
 
 ## Why
 
@@ -76,7 +100,7 @@ Bug reports, experiments, fixes, criticism, benchmarks, weird ideas, and good pu
 
 Repository-specific instructions override the organization defaults.
 
-See [CONTRIBUTING.md](../CONTRIBUTION.md).
+See [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Security
 
